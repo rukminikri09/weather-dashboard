@@ -2,7 +2,7 @@
 
 A responsive weather app built with HTML, CSS and vanilla JavaScript. Search any city to see current conditions and a 5-day forecast.
 
-**Live demo:** _add your Vercel / Netlify link here_
+**Live demo:** _add your Vercel / Netlify link here_ https://weather-dashboard-amber-eta-60.vercel.app
 
 ## Features
 - Search box and Search button (pressing Enter also searches)
