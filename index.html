@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="top">
+      <h1>Weather Dashboard</h1>
+      <div class="controls">
+        <button id="unitBtn" class="ghost" type="button" aria-label="Switch between Celsius and Fahrenheit">°C</button>
+        <button id="themeBtn" class="ghost" type="button" aria-label="Switch between dark and light mode">🌙</button>
+      </div>
+    </header>
+
+    <form id="searchForm" class="search">
+      <input id="cityInput" type="text" placeholder="Search a city, e.g. Pune" autocomplete="off" aria-label="City name">
+      <button type="submit">Search</button>
+      <button id="locBtn" class="ghost" type="button" title="Use my location" aria-label="Use my location">📍</button>
+    </form>
+
+    <div id="favourites" class="chips" aria-label="Favourite cities"></div>
+    <div id="recent" class="chips" aria-label="Recent searches"></div>
+    <div id="status" class="status" role="status" aria-live="polite"></div>
+
+    <section id="current" class="current" hidden></section>
+    <section id="forecast" class="forecast" aria-label="5-day forecast"></section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
